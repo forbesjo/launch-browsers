@@ -4,8 +4,13 @@
 
 This is a command line tool to launch a URL in a given browser.
 
+## Install
+`npm install -g launch-browsers`
+
+## Usage
+
 ```
-Usage: index [options] <url>
+Usage: launch-browsers [options] <url>
 
 
  Commands:
