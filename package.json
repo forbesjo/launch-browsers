@@ -1,0 +1,44 @@
+{
+  "name": "launch-browsers",
+  "version": "1.0.0",
+  "description": "CLI command to open a url in a given browser and on Windows VMs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jshint .",
+    "watch": "fsmonitor npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/forbesjo/launch-browsers.git"
+  },
+  "keywords": [
+    "cli",
+    "command",
+    "url",
+    "browser",
+    "launch",
+    "iectrl"
+  ],
+  "author": {
+    "name": "Joe Forbes",
+    "email": "joseph.a.forbes@gmail.com",
+    "url": "https://github.com/forbesjo"
+  },
+  "bin": {
+    "launch-browsers": "index.js"
+  },
+  "homepage": "https://github.com/forbesjo/launch-browsers",
+  "bugs": {
+    "url": "https://github.com/forbesjo/launch-browsers/issues"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.8.0",
+    "iectrl": "0.0.5",
+    "shelljs": "^0.4.0"
+  },
+  "devDependencies": {
+    "fsmonitor": "^0.2.4",
+    "jshint": "^2.7.0"
+  }
+}
