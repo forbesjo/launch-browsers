@@ -18,9 +18,9 @@ if (process.platform !== 'darwin') {
 program
   .usage('[options] <url>')
   .description('Opens a URL in a specified browser or all browsers.')
-  .option('-s, --safari', 'Open Url in Safari')
-  .option('-f, --firefox', 'Open Url in Firefox')
-  .option('-c, --chrome', 'Open Url in Google Chrome')
+  .option('-s, --safari', 'Open URL in Safari')
+  .option('-f, --firefox', 'Open URL in Firefox')
+  .option('-c, --chrome', 'Open URL in Google Chrome')
   .option('-w, --win', 'Open URL in all Win7 VMs');
 
 program.command('close')
