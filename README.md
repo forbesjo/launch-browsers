@@ -1,5 +1,7 @@
 # launch-browsers
 
+[![Build Status](https://travis-ci.org/forbesjo/launch-browsers.svg)](https://travis-ci.org/forbesjo/launch-browsers)
+
 This is a command line tool to launch a URL in a given browser.
 
 ```
