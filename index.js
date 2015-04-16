@@ -7,7 +7,7 @@ var commands = [
   'open -a "Google Chrome"',
   'open -a Safari',
   'open -a Firefox',
-  'node_modules/.bin/iectrl open -s Win7'
+  './node_modules/iectrl/bin/iectrl open -s Win7'
 ];
 
 if (process.platform !== 'darwin') {
@@ -27,8 +27,8 @@ program.command('close')
   .alias('x')
   .description('Closes all open VMs.')
   .action(function(){
-    exec('node_modules/.bin/iectrl close');
-    exec('node_modules/.bin/iectrl stop');
+    exec('./node_modules/iectrl/bin/iectrl close');
+    exec('./node_modules/iectrl/bin/iectrl stop');
     exit(0);
   });
 
