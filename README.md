@@ -22,8 +22,8 @@ Usage: launch-browsers [options] <url>
  Options:
 
    -h, --help     output usage information
-   -s, --safari   Open Url in Safari
-   -f, --firefox  Open Url in Firefox
-   -c, --chrome   Open Url in Google Chrome
+   -s, --safari   Open URL in Safari
+   -f, --firefox  Open URL in Firefox
+   -c, --chrome   Open URL in Google Chrome
    -w, --win      Open URL in all Win7 VMs
  ```
